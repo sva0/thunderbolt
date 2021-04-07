@@ -5,7 +5,7 @@
     --rad: 16px;
     --mainbg: #E9F0FD;
     --darktext: #292933;
-    --paragraph: #A8A8C3;
+    --paragraph:  #606060;;
     --mainhover: #ffd026;
 }
 
@@ -35,7 +35,9 @@ p {
     font-size: 14px;
     color: var(--paragraph);
     line-height: 28px;
-    font-weight: medium;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.77778;
 }
 
 h1,
@@ -50,8 +52,10 @@ span {
 h1 {
     font-size: 64px;
     font-weight: bold;
-    line-height: 82px;
-    margin: 0
+    line-height: 100px;
+    margin: 0;    
+    font-size: 84px;
+    font-weight: 700;
 }
 
 
@@ -141,6 +145,8 @@ li a.button-main {
     padding: 8px 16px;
     border-radius: 8px;
     /* color: #fff */
+    
+    color: #181a1f;
 }
 
 .top-navbar {
@@ -182,6 +188,13 @@ li a.button-main {
     display: none;
 }
 
+.text a {
+    text-align: left;
+    color: var(--main-color);
+    margin: 16px 0;
+    text-decoration: underline;
+    font-weight: 700;
+}
 .top {
     padding: 64px;
     padding-top: 200px;
@@ -211,6 +224,7 @@ li a.button-main {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin: 16px 0;
 }
 
 .top-buttons {
@@ -256,15 +270,18 @@ p {
     margin: 8px;
 }
 
+a.feature-card {
+    text-decoration: none;
+}
+
+.fa-arrow-right {
+    margin-left: 12px;
+}
+
 .feature-card img {
     height: 24px;
     width: 24px;
 }
-
-a {
-    text-decoration: none;
-}
-
 .button {
     padding: 12px 36px;
     color: #fff;
@@ -277,12 +294,31 @@ a {
     line-height: 24px;
     transition: .3s;margin-top: 8px;
     text-transform: uppercase;
+    text-decoration: none;
 }
-
 .button:hover {
     background: #ddad00;
 }
 
+.learn-more {
+    margin-top: 16px;
+    padding: 16px;
+    color: var(--main-color);
+    text-decoration: none;
+    background: var(--main-color);
+    color: #181a1f;
+    transition: .2s;
+    display: block;
+    width: fit-content;
+    font-weight: 700;
+    border: 2px solid var(--main-color);
+}
+
+.learn-more:hover {
+    color: var(--main-color);
+    background: none;
+    border: 2px solid var(--main-color);font-variant-caps: ;
+}
 
 .item-card .button-main:hover,
 .convert .button-secondary:hover {
@@ -347,8 +383,8 @@ a {
     display: block;
     height: 6px;
     border-radius: 4px;
-    padding: 0 8px;
     background: #ABACB8;
+    margin: 0 8px;
 }
 
 
@@ -488,8 +524,8 @@ img.top-card {
 
 .item-card a {
     margin-top: 8px;
-    font-weight: 600;
-    font-size: 0.8rem;
+    font-weight: 800;
+    font-size: .94rem;
 }
 
 .title {
@@ -526,7 +562,7 @@ li {
 }
 
 ul {
-    margin-top: 16px;
+    margin: 16px 0;
     width: -webkit-fill-available;
 }
 
