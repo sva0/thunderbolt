@@ -196,6 +196,14 @@ li a.button-main {
     text-decoration: underline;
     font-weight: 700;
 }
+
+ul.menu .button-contact {
+    background: none;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    padding: 16px;
+}
+
 .top {
     padding: 64px;
     padding-top: 200px;
@@ -829,16 +837,22 @@ select,
 textarea {
     width: 100%;
     padding: 12px;
-    border: 2px solid rgb(209, 214, 226);
-    background: rgb(209, 214, 226);
+    border: .2em solid rgb(240 241 243);
+    background: rgb(240 241 243);
     border-radius: 8px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
+    transition: .2s;
     resize: vertical;
     font-family: 'Open Sans', -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
-
+input:active,
+select:active,
+textarea:active{
+    border-color: var(--main-color);
+    background: #fff;
+}
 
 input:hover,
 select:hover,
@@ -846,7 +860,6 @@ textarea:hover {
     border-color: rgb(158, 166, 185);
     background: #fff;
 }
-
 
 label {
     font-weight: 500;
