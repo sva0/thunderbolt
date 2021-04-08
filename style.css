@@ -204,6 +204,11 @@ ul.menu .button-contact {
     padding: 16px;
 }
 
+ul.menu .button-contact:hover {
+    background: var(--main-color);
+    color: #fff;
+}
+
 .top {
     padding: 64px;
     padding-top: 200px;
@@ -326,7 +331,7 @@ a.feature-card {
 .learn-more:hover {
     color: var(--main-color);
     background: none;
-    border: 2px solid var(--main-color);font-variant-caps: ;
+    border: 2px solid var(--main-color);
 }
 
 .item-card .button-main:hover,
@@ -347,6 +352,14 @@ a.feature-card {
 
 .big-info:nth-child(even) {
     background: #F8F7FA;
+}
+
+.item-inside .r span {
+    line-height: 24px;
+}
+
+.item-inside .r p {
+    font-size: 16px;
 }
 
 .products-top p {
@@ -502,7 +515,7 @@ li span {
     flex-direction: column;
 }
 
-a.item-card {
+ bit.item-card {
     height: auto;
     background-color: var(--main-color);
     color: #fff;
