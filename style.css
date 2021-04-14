@@ -270,11 +270,9 @@ p {
 #features-container h4 {
     margin: 12px 0;
     color: #0D1116;
-    text-align: left;
 }
 
 .feature-card {
-    text-align: left;
     background: #F8F7FA;
     border-radius: 8px;
     display: flex;
