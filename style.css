@@ -270,6 +270,7 @@ p {
 #features-container h4 {
     margin: 12px 0;
     color: #0D1116;
+    color: var(--main-color)
 }
 
 .feature-card {
@@ -280,10 +281,15 @@ p {
     padding: 12px;
     max-width: 19%;
     margin: 8px;
+    align-items: center;
 }
 
 a.feature-card {
     text-decoration: none;
+}
+
+.feature-card p {
+    font-size: 14px;
 }
 
 .fa-arrow-right {
@@ -291,8 +297,9 @@ a.feature-card {
 }
 
 .feature-card img {
-    height: 24px;
-    width: 24px;
+    height: 36px;
+    width: 36px;
+    margin: 16px;
 }
 .button {
     padding: 12px 36px;
