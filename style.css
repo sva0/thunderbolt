@@ -274,7 +274,7 @@ p {
 }
 
 .feature-card {
-    background: #F8F7FA;
+    /* background: #F8F7FA; */
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -282,6 +282,8 @@ p {
     max-width: 19%;
     margin: 8px;
     align-items: center;
+    background: #fff;
+    box-shadow: 0 0 20px #1b1c2512
 }
 
 a.feature-card {
