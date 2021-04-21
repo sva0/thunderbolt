@@ -354,7 +354,6 @@ a.feature-card {
     align-items: center;
     padding: 60px 80px;
     gap: 24px;
-    /* border-top: 1px solid #F8F7FA; */
 }
 
 .big-info:nth-child(even) {
