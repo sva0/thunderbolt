@@ -867,6 +867,7 @@ textarea {
     resize: vertical;
     font-family: 'Open Sans', -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
+
 input:focus,
 select:focus,
 textarea:focus{
