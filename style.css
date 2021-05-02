@@ -867,10 +867,16 @@ textarea {
     font-family: 'Open Sans', -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 input:focus,
 select:focus,
 textarea:focus{
+=======
+input:active,
+select:active,
+textarea:active{
+>>>>>>> parent of ba2c347 (en -> dutch)
 =======
 input:active,
 select:active,
