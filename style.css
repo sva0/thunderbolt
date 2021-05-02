@@ -870,12 +870,16 @@ textarea {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 827410a (1)
 =======
 >>>>>>> parent of 827410a (1)
 
 input:focus,
 select:focus,
 textarea:focus{
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 input:active,
@@ -887,6 +891,8 @@ input:active,
 select:active,
 textarea:active{
 >>>>>>> parent of ba2c347 (en -> dutch)
+=======
+>>>>>>> parent of 827410a (1)
 =======
 >>>>>>> parent of 827410a (1)
     border-color: var(--main-color);
