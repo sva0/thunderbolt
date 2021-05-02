@@ -867,40 +867,10 @@ textarea {
     resize: vertical;
     font-family: 'Open Sans', -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 827410a (1)
-=======
->>>>>>> parent of 827410a (1)
-=======
->>>>>>> parent of 827410a (1)
 
 input:focus,
 select:focus,
 textarea:focus{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-input:active,
-select:active,
-textarea:active{
->>>>>>> parent of ba2c347 (en -> dutch)
-=======
-input:active,
-select:active,
-textarea:active{
->>>>>>> parent of ba2c347 (en -> dutch)
-=======
->>>>>>> parent of 827410a (1)
-=======
->>>>>>> parent of 827410a (1)
-=======
->>>>>>> parent of 827410a (1)
     border-color: var(--main-color);
     background: #fff;
 }
