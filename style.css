@@ -35,10 +35,9 @@ p {
     margin: 0;
     font-size: 14px;
     color: var(--paragraph);
-    color: #656777;
     line-height: 28px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.77778;
 }
 
@@ -362,11 +361,11 @@ a.feature-card {
 }
 
 .item-inside .r span {
-    line-height: 18px;
+    line-height: 24px;
 }
 
 .item-inside .r p {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .products-top p {
@@ -857,8 +856,8 @@ select,
 textarea {
     width: 100%;
     padding: 12px;
-    border: .1em solid rgb(240, 241, 243);
-    background: rgb(240, 241, 243);
+    border: .2em solid rgb(240 241 243);
+    background: rgb(240 241 243);
     border-radius: 8px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -867,10 +866,16 @@ textarea {
     resize: vertical;
     font-family: 'Open Sans', -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
+<<<<<<< HEAD
 
 input:focus,
 select:focus,
 textarea:focus{
+=======
+input:active,
+select:active,
+textarea:active{
+>>>>>>> parent of ba2c347 (en -> dutch)
     border-color: var(--main-color);
     background: #fff;
 }
@@ -878,8 +883,8 @@ textarea:focus{
 input:hover,
 select:hover,
 textarea:hover {
-    /* border-color: rgb(187, 193, 207); */
-    background: rgb(224, 225, 230);
+    border-color: rgb(158, 166, 185);
+    background: #fff;
 }
 
 label {
